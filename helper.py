@@ -50,7 +50,7 @@ if __name__ == '__main__':
 
     for bssid in ARGS.ap:
         nasid = bssid.replace(':', '')
-        print('\n')
+        print('---Madkodur rooming --------------------------------\n')
         print('Configuration for AP with BSSID {}:\n'.format(bssid))
         print('{}ieee80211r{}\'1\''.format(output_prefix, output_seperator))
         print('{}mobility_domain{}\'{}\''.format(output_prefix, output_seperator, mobility_domain))
