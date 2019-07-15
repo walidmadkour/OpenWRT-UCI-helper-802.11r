@@ -1,5 +1,9 @@
 # OpenWRT 802.11r FT roaming helper script
 
+EX:- 
+
+## Madkour-Server# python3 helper.py 0 --ap 11:22:33:44:55:00 --ap 11:22:33:44:55:01 --ap 11:22:33:44:55:
+
 This script just simplifies the bootstrap process of creating the `r0kh` and `r1kh` config options.
 
 ## Usage
